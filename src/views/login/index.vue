@@ -44,6 +44,7 @@
       </el-form>
     </el-card>
     <img :src="login_center_bg" class="login-center-layout">
+	<!----
     <el-dialog
       title="特别赞助"
       :visible.sync="dialogVisible"
@@ -54,6 +55,7 @@
     <el-button type="primary" @click="dialogConfirm">去支持</el-button>
   </span>
     </el-dialog>
+	---->
   </div>
 </template>
 
